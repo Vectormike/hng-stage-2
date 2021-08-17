@@ -1,0 +1,156 @@
+/* General Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 15px  Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  background-color: rgb(213, 245, 205)
+}
+
+.divider {
+  width: 25%;
+  height: 2px;
+  background-color: #23d32c;
+}
+
+a:link, a:visited {
+  color: rgb(24, 24, 26);
+}
+
+
+/* HNG */
+
+.hng-details {
+  width: 100%;
+  text-align: center;
+}
+
+.hng-details .logo {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.hng-details .logo img {
+  width: 10%;
+}
+
+.hng-details a {
+  display: block;
+}
+
+
+.resume {
+  max-width: 900px;
+  background-color: rgb(253, 253, 253);
+  border-radius: 40px;
+
+  padding: 40px;
+  margin: 10px auto;
+}
+
+.resume .profileImg {
+  margin-top: 10px !important;
+  align-items: center;
+  
+}
+
+.resume .profileImg, .section-header {
+  display: flex;
+  align-items: center;
+}
+
+.resume .profileImg img {
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  object-fit: cover;
+}
+
+section {
+  margin-top: 60px;
+}
+
+.section-title {
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  flex-basis: 40%;
+}
+
+.section-body {
+  padding-left: 20px;
+  line-height: 25px;
+}
+
+
+
+.intro {
+  width: 100%;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.intro .bio {
+  color: rgb(22, 22, 22);
+  font-size: 20px;
+}
+
+.intro .work-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+.intro .work-info .item {
+  padding: 5px;
+  margin: 5px;
+}
+
+
+/* work experience */
+.work-experience .work-place-title {
+  font-weight: bold;
+}
+
+.work-experience .work-details {
+  margin-bottom: 20px;
+}
+
+.job .section-body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.job .section-body .skill, .language .section-body .skill {
+  background-color: rgb(146, 146, 146);
+  color: #fff !important;
+  border-radius: 50%;
+  width: max-content;
+  margin: 10px;
+  padding: 15px;
+}
+
+/* contact form */
+.form-group, #submitBtn {
+  margin: 10px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .job .section-body {
+    grid-template-columns: auto auto;
+  }
+
+  .job .section-body {
+    padding-left: 0px !important;
+  }
+}

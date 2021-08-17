@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <div class="resume">
+    <section class="profileImg">
+      <img src="/images/vectormike.jpeg" alt="Victor Jonah">
+      <div class="divider"></div>
+    </section>
+
+    <section class="intro">
+      <h1>Victor Jonah</h1>
+      <p class="bio">Backend Engineer</p>
+      <div class="row">
+      </div> <br>
+      <div class="row">
+        <div class="col-md-4">
+          <div>
+            <b>Email:</b> victorjonah199@gmail.com
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <b>Phone number:</b> +2347012766294
+          </div>
+        </div>
+         <div class="col-md-4">
+          <div>
+           <b>Location:</b> AkwaIbom
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="section-header">
+        <div class="section-title">Professional Summary</div>
+        <div class="divider"></div>
+      </div>
+      <div class="section-body">
+        Hello, I'm Victor Jonah! 
+        Pragmatic 👨‍🏫 
+        Deterministic 🕵️‍♂️
+        Dedicated 🦸‍♂️ 
+        Team Player 👨‍🔧
+        Self-taught 👨‍🎓 
+         <br>
+
+        <p>With almost two years of professional experience, I have worked with these tools 😃.<br><br>
+        <b>Node/Express:</b> Written APIs for both Mobile and Web, and also working on a sdk for a Payment gateway.<br> 
+        <b>MongoDB:</b> All data manipulated by me were stored using this tool and I'm pretty much confident with it.<br>
+        <b>Docker:</b> Automated the deployment of few applications in a container.<br>
+        <b>Writing:</b> I currently do have a blog in which I document what I learn.<br>
+        Nevertheless, I can work with more tools if need(🤑) be 🕺.</p>
+      </div>
+    </section>
+
+    <section class="work-experience">
+      <div class="section-header">
+        <div class="section-title">Experience</div>
+        <div class="divider"></div>
+      </div>
+      <div class="section-body">
+        <div class="work-place-title">Crenet.io</div>
+        <div class="work-details">
+          Backend Engineer <br>
+          2020-10-01 - Present <br>
+        </div>
+
+        <div class="work-place-title">Truth Exchanges</div>
+         <div class="work-details">
+          Backend Engineer <br>
+          2020-10-01 - Present <br>
+        </div>
+
+        <div class="work-place-title">Servit</div>
+        <div class="work-details">
+          Backend Engineer <br>
+          2020-10-01 - Present <br>
+        </div>
+      </div>
+    </section>
+
+    <section class="education">
+      <div class="section-header">
+        <div class="section-title">Education</div>
+        <div class="divider"></div>
+      </div>
+      <div class="section-body">
+        <div class="work-place-title">Computer Science</div>
+        <div class="work-details">
+         <b> University of Uyo </b> <br>
+         2015-10 - 2020-10
+        </div>
+      </div>
+    </section>
+
+    <section id="contactForm">
+      <h4>Please, reach out!</h4>
+      <form action="/contact" method="post">
+        <div class="form-group">
+          <input type="text" name="name" required minlength="3" maxlength="30" id="name" class="form-control" placeholder="name" aria-describedby="nameId">
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" required id="email" class="form-control" placeholder="email" aria-describedby="emailId">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" name="message" id="message" required minlength="3" maxlength="200" rows="3"></textarea>
+        </div>
+        <button type="submit" id="submitBtn" class="btn btn-secondary">Shoot!</button>
+      </form>
+    </section>
+    <section class="hng-details">
+      <div class="logo">
+        <img sizes="50px" src="/images/download.png" alt="HNG Logo">
+      </div>
+      <div class="links">
+        Links: <br>
+        <a href="https://zuri.team" target="_blank">https://zuri.team</a>
+        <a href="https://internship.zuri.team" target="_blank">https://internship.zuri.team</a>
+        <a href="https://training.zuri.team " target="_blank">https://training.zuri.team</a>
+      </div>
+    </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/parsleyjs@2.9.2/dist/parsley.min.js"></script>
+  <script src="/javascripts/script.js"></script>
+</body>
+
+</html>
