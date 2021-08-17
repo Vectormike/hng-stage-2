@@ -4,7 +4,7 @@ function sendMail(from, name, subject, message, cb) {
   const transport = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 465,
-    secure: false,
+    secure: true,
     auth: {
       user: 'victorjonah199@gmail.com',
       pass: 'Redeemer40',
