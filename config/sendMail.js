@@ -6,8 +6,8 @@ function sendMail(from, name, subject, message, cb) {
     port: 465,
     secure: true,
     auth: {
-      user: 'victorjonah199@gmail.com',
-      pass: 'Redeemer40',
+      user: process.env.EMAIL_USERNAME,
+      pass: process.env.EMAIL_PASSWORD,
     },
   });
 
