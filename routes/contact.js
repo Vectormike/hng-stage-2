@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const sendMail = require('../_helpers/sendMail');
+const sendMail = require('../config/sendMail');
 
 const routes = () => {
   router.route('/').post((req, res) => {
