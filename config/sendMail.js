@@ -13,9 +13,9 @@ function sendMail(from, name, subject, message, cb) {
 
   const mailOptions = {
     from: '15103140ashish@gmail.com',
-    to: name,
-    subject: 'Sending Email using Node.js',
-    text: 'That was easy!',
+    to: 'victorjonah199@gmail.com',
+    subject: 'New Contact',
+    text: 'Someone messaged you!',
   };
 
   const replyOptions = {
