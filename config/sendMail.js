@@ -13,16 +13,16 @@ function sendMail(from, name, subject, message, cb) {
 
   const mailOptions = {
     from: '15103140ashish@gmail.com',
-    to: 'victorjonah199@gmail.com',
+    to: name,
     subject: 'Sending Email using Node.js',
     text: 'That was easy!',
   };
 
   const replyOptions = {
-    from: `Victor`,
+    from: `victorjonah199@gmail.com`,
     to: from,
-    subject: `Well Received`,
-    text: 'Thank you for reaching out!',
+    subject: `Yo!`,
+    text: 'Thank you for mailing me!',
   };
 
   transport.sendMail(mailOptions, (err, response) => {
